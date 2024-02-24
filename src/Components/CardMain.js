@@ -13,7 +13,7 @@ function CardMain({ imgSrc, title }) {
 
       <div className="card_main_button">
         <a href="#" className="button btn">
-          button 1
+          Check Now
         </a>
  
       </div>

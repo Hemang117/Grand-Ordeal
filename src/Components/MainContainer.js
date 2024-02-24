@@ -29,8 +29,8 @@ function MainContainer() {
           <main>
             <CardMain imgSrc={Card1} title={"Verification Status"}/>
             <CardMain imgSrc={Card2} title={"SOS Reports"}/>
-            <CardMain imgSrc={Card3} title={"Locator"}/>
-            <CardMain imgSrc={Card4} title={"Dash Feed"}/>
+            <CardMain imgSrc={Card3} title={"Location Sharing"}/>
+            <CardMain imgSrc={Card4} title={"Dashcam Feed"}/>
           </main>
         </div>
       </div>
