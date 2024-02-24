@@ -1,6 +1,6 @@
 import React from "react";
 
-function CardMain({ imgSrc, title }) {
+function CardMain2({ imgSrc, title }) {
   return (
     <div className="card_main">
       <img src={imgSrc} alt="" className="card_main_img" />
@@ -21,4 +21,4 @@ function CardMain({ imgSrc, title }) {
   );
 }
 
-export default CardMain;
+export default CardMain2;
