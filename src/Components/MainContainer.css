@@ -1,0 +1,118 @@
+.maincontainer {
+  width: 100%;
+  height: calc(100% - 45px);
+  display: flex;
+  padding-top: 0px;
+  background: #19162c;
+  border-radius: 20px;
+  
+}
+
+.maincontainer .left {
+  width: 100%;
+  overflow-y: scroll;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  
+}
+
+.maincontainer .left::-webkit-scrollbar {
+  display:none;
+  
+}
+
+
+.maincontainer .left .cards {
+
+  padding: 10px;
+  border-radius: 20px;
+  height: calc(100%-45px);
+}
+
+
+
+.maincontainer .left .cards main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(10.5px); 
+padding: 50px;
+ 
+  
+}
+
+.maincontainer .left .cards main .card_main {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 560px;
+  padding: 20px;
+  margin: 15px 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10.5px); 
+  
+  
+
+  
+}
+
+.maincontainer .left .cards main .card_main .card_main_img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.maincontainer .left .cards main .card_main .card_main_name {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+.maincontainer .left .cards main .card_main .card_main_name h2 {
+  color: #50505b;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.maincontainer .left .cards main .card_main .card_main_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.maincontainer .left .cards main .card_main .card_main_button .btn {
+  font-size: 15px !important;
+ 
+}
+
+
+@media only screen and (min-width: 525px) and (max-width: 950px) {
+  .maincontainer {
+    height: calc(100% - 0%);
+  }
+  .maincontainer .left {
+    width: calc(100% - 0%);
+    height: calc(100% - 0%);
+  }
+
+
+
+  .maincontainer .left .cards main .card_main {
+    max-width: 230px;
+    margin: 20px 5px;
+  }
+
+
+
+}
