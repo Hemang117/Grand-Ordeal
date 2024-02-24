@@ -27,10 +27,10 @@ function MainContainer() {
 
         <div className="cards">
           <main>
-            <CardMain imgSrc={Card1} title={"Card 1"}/>
-            <CardMain imgSrc={Card2} title={"Card 2"}/>
-            <CardMain imgSrc={Card3} title={"Card 3"}/>
-            <CardMain imgSrc={Card4} title={"Card 4"}/>
+            <CardMain imgSrc={Card1} title={"Verification Status"}/>
+            <CardMain imgSrc={Card2} title={"SOS Reports"}/>
+            <CardMain imgSrc={Card3} title={"Locator"}/>
+            <CardMain imgSrc={Card4} title={"Dash Feed"}/>
           </main>
         </div>
       </div>

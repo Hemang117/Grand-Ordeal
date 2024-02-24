@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 import "./Menu.css";
-import logo from "../img/coplogoed.png";
+import logo from "../img/back2.jpg";
 import {
   FaIdCard,
   FaComment,
   FaWallet,
   FaChartLine,
   FaRegClock,
-
   FaSignOutAlt,
 } from "react-icons/fa";
 
